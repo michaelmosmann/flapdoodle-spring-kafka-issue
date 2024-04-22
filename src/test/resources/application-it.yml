@@ -1,0 +1,9 @@
+kafka:
+  bootstrap-servers: ${spring.embedded.kafka.brokers}
+  group-id: ${spring.application.name}
+
+de:
+  flapdoodle:
+    mongodb:
+      embedded:
+        version: 6.0.12

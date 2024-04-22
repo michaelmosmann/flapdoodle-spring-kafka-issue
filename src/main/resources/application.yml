@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: flapdoodle-spring-kafka-issue
+  main:
+    banner-mode: off
